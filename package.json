@@ -1,5 +1,5 @@
 {
-  "name": "flat",
+  "name": "@resistdesign/flat",
   "version": "4.1.0",
   "main": "index.js",
   "bin": "cli.js",

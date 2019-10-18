@@ -1,8 +1,10 @@
 {
   "name": "@resistdesign/flat",
-  "version": "4.1.0",
+  "version": "0.0.0",
   "main": "index.js",
-  "bin": "cli.js",
+  "bin": {
+    "flat": "cli.js"
+  },
   "scripts": {
     "test": "mocha -u tdd --reporter spec && standard index.js test/index.js"
   },
@@ -18,10 +20,6 @@
   "dependencies": {
     "is-buffer": "~2.0.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hughsk/flat.git"
-  },
   "keywords": [
     "flat",
     "json",
@@ -35,5 +33,9 @@
   "bugs": {
     "url": "https://github.com/hughsk/flat/issues"
   },
-  "homepage": "https://github.com/hughsk/flat"
+  "homepage": "https://github.com/hughsk/flat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resistdesign/flat.git"
+  }
 }
